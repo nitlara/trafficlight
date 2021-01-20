@@ -1,8 +1,5 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
-
-
 body {
   background-color: #1abc9c;
   display: flex;
@@ -11,25 +8,13 @@ body {
 }
 
 .container {
-  background-color: #2c3e50;
-  border-radius: 50px;
-  height: 200px;
+  height: 220px;
   width: 70px;
 }
 
 .circle {
-  height: 40px;
-  width: 40px;
-}
-
-.red {
-  background-color: #c0392b;
-}
-.orange {
-  background-color: #df7f03;
-}
-.green {
-  background-color: #2ecc71;
+  height: 50px;
+  width: 50px;
 }
 .selected{
     box-shadow: #f5d31359 0px 0px 50px 20px;

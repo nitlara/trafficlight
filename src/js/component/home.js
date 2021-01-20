@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
 export function Trafficlight() {
-	//useState con light
+	//useState about light
 	const [light, setLight] = useState("");
-	//
+	//condictional: what color is selected
 
 	if (light == "red") {
 		var redLightSelection = "selected";
@@ -14,23 +14,24 @@ export function Trafficlight() {
 	}
 
 	return (
-		<div className="container mt-5 d-flex flex-column align-items-center justify-content-around">
+		<div className="container mt-5  d-flex flex-column align-items-center justify-content-around rounded bg-dark">
 			<div
 				className={
-					"red circle rounded-circle border-dark " + redLightSelection
+					"mt-2 bg-danger circle rounded-circle border-dark " +
+					redLightSelection
 				}
 				onClick={() => setLight("red")}
 			/>
 			<div
 				className={
-					"orange circle rounded-circle border-dark " +
+					"bg-warning circle rounded-circle border-dark " +
 					orangeLightSelection
 				}
 				onClick={() => setLight("orange")}
 			/>
 			<div
 				className={
-					"green circle rounded-circle border-dark " +
+					"bg-success circle rounded-circle border-dark mb-2 " +
 					greenLightSelection
 				}
 				onClick={() => setLight("green")}
