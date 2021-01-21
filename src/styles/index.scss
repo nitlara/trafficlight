@@ -1,21 +1,31 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
 body {
-  background-color: #1abc9c;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: rgba(10, 60, 197, 0.623);
 }
 
-.container {
+.trafficbox {
   height: 220px;
   width: 70px;
 }
 
+.stick {
+    height: 60px;
+    width:10px;
+}
 .circle {
   height: 50px;
   width: 50px;
 }
 .selected{
-    box-shadow: #f5d31359 0px 0px 50px 20px;
+    box-shadow: #f5d3139f 0px 0px 50px 20px;
+}
+
+.bicycle{
+    margin:auto;
+    font-size:30px;
+    color:rgba(0, 0, 0, 0.322);
 }
